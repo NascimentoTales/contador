@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 0;
+    li{
+        list-style: none;
+    }  
+    a{
+        text-decoration: none;
+    }
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 3rem;
+        }
+        span{
+            padding: 50px;
+            font-size: 2rem;
+        }
+        .btn{
+            padding: 10px;
+        }
+    }
+    .positivo{
+        color: green;
+    }
+    .negativo{
+        color: red;
+    }
+}
